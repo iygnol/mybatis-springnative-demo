@@ -4,4 +4,4 @@
 mvn clean install
 
 # run or package mybatis-springnative-demo
-package -Pnative -DskipTests
+mvn package -Pnative -DskipTests
